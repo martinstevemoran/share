@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 75.3.2","requests >= 2.31.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cisco_mce"
+version = "0.0.1"
+authors = [{
+    name="Martin Moran",
+    email="martinstevemoran@gmail.com"
+    }]
+description = "REST-client for My Cisco Entitlements"
+readme = "README.md"
+requires-python = ">=3.8.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/martinstevemoran/share/ciscomcefiles"
